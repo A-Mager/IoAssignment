@@ -14,13 +14,19 @@ The numbers I used for the price calculations are completely arbitrary as I have
 I've been short on time the past few days so I did cut a few corners(No real API for the part prices being the biggest missing feature)
 
 Assumptions I made:
+
 -Working with a framework I'm familiar with will make it easier for me to make the calculations needed.
+
 -I'll need atleast 2 tables on the database. ScheduledMaintenanceJob and SparePart have been made, 
  I'd foregone the need for MaintenanceJob for having a more compiled database.
+ 
 -Having 0 knowdledge on cars, I'll just assume the part prices from google are a good guideline.
+
 -I'll need 2 blades, 1 as a general overview of all scheduled maintenance jobs, and another for more information + price calculation individually.
+
 -I'll also need 2 functions in my controller. The index function will load all scheduled jobs and output them in a datatable for easy viewing.
  The second function will be used when viewing an individual job. This will also do the price calculation.
+ 
 -I'll need to make migrations and seeders to populate the database.
 
 ## License
