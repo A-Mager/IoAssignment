@@ -20,7 +20,7 @@ Assumptions I made:
 -I'll need atleast 2 tables on the database. ScheduledMaintenanceJob and SparePart have been made, 
  I'd foregone the need for MaintenanceJob for having a more compiled database.
  
--Having 0 knowdledge on cars, I'll just assume the part prices from google are a good guideline.
+-Having 0 knowledge on cars, I'll just assume the average part prices from google are a good guideline.
 
 -I'll need 2 blades, 1 as a general overview of all scheduled maintenance jobs, and another for more information + price calculation individually.
 
