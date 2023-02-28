@@ -29,6 +29,8 @@ Assumptions I made:
  
 -I'll need to make migrations and seeders to populate the database.
 
+-For the actual current part prices I'll probably need an API. 
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
